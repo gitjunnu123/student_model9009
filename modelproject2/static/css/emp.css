@@ -1,0 +1,35 @@
+h1{
+color:red;
+margin-left:150px;
+}
+
+table,th,td{
+border:1px solid black;
+}
+
+table,th,td{
+ background-color: #D6EEEE;
+}
+td,table{
+margin-left:150px;
+margin-top:100px;
+border:2px solid red;
+font-size:25px;
+background:blue;
+color:white;
+}
+th,table{
+background:green;
+}
+ tr td,th,table{
+border:2px solid white;
+}
+
+
+
+body{
+background:url(https://images.unsplash.com/photo-1735323656411-a43ad7822c90?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8);
+
+background-repeat:no-repeat;
+background-size:cover;
+}
