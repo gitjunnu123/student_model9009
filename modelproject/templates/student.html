@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}Model Project {%endblock%}</title>
+    <link rel="stylesheet" href="{% static 'css/raj.css' %}">
+</head>
+<body>
+{%block content%}
+<h1>Student Models</h1>
+{%for x in my_student%}
+
+<ul>
+    <li>{{x.name}}</li>
+    <li>{{x.marks}}</li>
+</ul>
+ {%endfor%}
+
+<h2>Student Table </h2>
+
+ {%for y in my_student%}
+<table>
+
+
+    <tr>
+        <th>{{y.name}}</th>
+
+
+    </tr>
+    <tr>
+
+        <td>{{y.marks}}</td>
+    </tr>
+
+
+</table>
+{%endfor%}
+
+
+
+
+
+{%endblock%}
+
+</body>
+</html>
